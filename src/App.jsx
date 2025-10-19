@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
-import Program from './Components/Programs/Programs'
+import Programs from './Components/Programs/Programs'
 import Title from './Components/Title/Title'
 import About from './Components/About/About'
 import Dairys from './Components/Dairys/Dairys'
@@ -24,7 +24,7 @@ const [playState, setPlayState] = useState(false);
       <Hero/>
       <div className='container'>
         <Title subTitle='Sugarcane Verieties' title='Popular Farmers choice'/>
-        <Program/>
+        <Programs/>
         <About setPlayState={setPlayState}/>
         <Title subTitle=' Dairy Products' title='Popular Dairy Products'/>
         <Dairys/>

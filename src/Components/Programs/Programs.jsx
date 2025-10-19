@@ -5,7 +5,7 @@ import sugarb from '../../assets/sugarb.jpg'
 import sugarc from '../../assets/sugarc.jpeg'
 import sugar from '../../assets/sugar.png'
 
-const Program = () => {
+const Programs = () => {
   return (
     <div className='programs'>
       <div className='program'>
@@ -37,4 +37,4 @@ const Program = () => {
   )
 }
 
-export default Program
+export default Programs
