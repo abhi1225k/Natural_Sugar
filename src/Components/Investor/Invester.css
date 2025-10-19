@@ -1,0 +1,12 @@
+.invester{
+    font-size: 19px;
+    font-weight: 500;
+}
+.btn{
+    color: white;
+    background-color: #007bff;
+}
+.invester a{
+    align-items: center;
+    justify-content: center;
+}
