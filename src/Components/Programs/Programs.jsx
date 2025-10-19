@@ -1,7 +1,7 @@
 import React from 'react'
 import './Programs.css'
 import co419 from '../../assets/co419.jpg'
-import co7219 from '../../assets/co7219.jpg'
+import c10001 from '../../assets/c10001.jpg'
 import coC671 from '../../assets/coC671.jpeg'
 import sugar from '../../assets/sugar.png'
 
@@ -17,7 +17,7 @@ const Program = () => {
       </div>
 
       <div className='program'>
-        <img src={co7219} alt=''/>
+        <img src={c10001} alt=''/>
         <div className='caption'>
           <img src={sugar} alt=''/>
           <p><h1>co7219</h1></p>
