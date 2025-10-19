@@ -1,10 +1,10 @@
 import React from 'react'
 import './Dairys.css'
-import ndhoodhpacket from '../../Assets/ndhoodhpacket.jpg'
-import shrikhand from '../../Assets/shrikhand.jpg'
-import tup from '../../Assets/tup.jpg'
-import tupa2 from '../../Assets/tupa2.jpg'
-import white_arrow from '../../Assets/white-arrow.png'
+import ndhoodhpacket from '../../assets/ndhoodhpacket.jpg'
+import shrikhand from '../../assets/shrikhand.jpg'
+import tup from '../../assets/tup.jpg'
+import tupa2 from '../../assets/tupa2.jpg'
+import white_arrow from '../../assets/white-arrow.png'
 
 const Dairys = () => {
   return (

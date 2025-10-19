@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
 import './Testimoniels.css'
-import next_icon from '../../Assets/next-icon.png'
-import back_icon from '../../Assets/back-icon.png'
-import abhi from '../../Assets/abhi.png'
+import next_icon from '../../assets/next-icon.png'
+import back_icon from '../../assets/back-icon.png'
+import abhi from '../../assets/abhi.png'
 
 const Testimoniels = () => {
 
