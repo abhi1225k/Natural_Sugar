@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 import ncmd from '../../assets/ncmd.jpg'
-import play_icon from '../../assets/play-icon.png'
 
 const About = ({setPlayState}) => {
   return (
@@ -10,7 +9,7 @@ const About = ({setPlayState}) => {
      
       <div className='about-left'>
         <img src={ncmd} alt='' className='about-img' onClick={()=>{setPlayState(true)}}/>
-        <img src='' alt='' className='play-icon'/> 
+        
       </div>
       
       <div className='about-right'>
