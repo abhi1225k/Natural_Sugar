@@ -1,0 +1,43 @@
+.about2{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.about-left2{
+    flex-basis: 5%;
+    pointer: relative;
+}
+.about-right2{
+    flex-basis: 73%;
+}
+.about h1{
+    font-weight: 700;
+    font-weight: 16px;
+    color: #0e0e0eff;
+}
+.about2-img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.about2 p{
+    margin-bottom: 20px 0;
+    line-height: 1.6;
+    color: #0c0c0cff;
+}
+
+@media (max-width: 800px) {
+    .about2{
+        flex-direction: column;
+    }
+    .about-right2{
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+    .about-left2{
+        flex-basis: 100%;
+    }
+}

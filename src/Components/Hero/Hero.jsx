@@ -13,8 +13,12 @@ const Hero = () => {
             <br/>
             CIN-U72214MH1998PLC121048
         </p>
-        <button className='btn'>Explore More <img src={dark_arrow}
-         alt=''/></button>
+         <button
+              onClick={() => {
+                const aboutSection = document.getElementById("environment");
+                aboutSection?.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="btn btn-primary">Explore More</button> 
       </div>
     </div>
   )

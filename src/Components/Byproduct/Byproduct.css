@@ -1,0 +1,14 @@
+.byproduct{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.bypro{
+    
+    align-items: center;
+    justify-content: center;
+    right: 30%;
+    left: 30%;
+}
